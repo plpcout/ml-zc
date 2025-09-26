@@ -1,3 +1,16 @@
+# Private
+**/private/*
+**/.ssh/
+
+# github
+.github/*
+!.github/workflows/
+
+# Added additional ignores for common IDEs and tools
+.idea/
+.vscode/    
+*.iml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -14,7 +27,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+lib/s
 lib64/
 parts/
 sdist/
