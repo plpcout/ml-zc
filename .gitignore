@@ -2,6 +2,9 @@
 **/private/*
 **/.ssh/
 
+# Local csv files
+*.csv
+
 # github
 .github/*
 !.github/workflows/
