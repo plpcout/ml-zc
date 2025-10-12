@@ -1,5 +1,8 @@
 ## Homework [DRAFT]
 
+The homework notebook can be found at [hw.ipynb](./hw.ipynb).
+
+
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
 > Select the option that's closest to your solution.
@@ -34,6 +37,17 @@ What is the most frequent observation (mode) for the column `industry`?
 - `retail`
 
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `NA`
+- [ ] `technology`
+- [ ] `healthcare`
+- [x] `retail`
+
+**Answer**: `'retail'`
+</details>
+
 ### Question 2
 
 Create the [correlation matrix](https://www.google.com/search?q=correlation+matrix) for the numerical features of your dataset. 
@@ -44,9 +58,20 @@ What are the two features that have the biggest correlation?
 - `interaction_count` and `lead_score`
 - `number_of_courses_viewed` and `lead_score`
 - `number_of_courses_viewed` and `interaction_count`
-- `annual_income` and `lead_score`
+- `annual_income` and `interaction_count`
 
 Only consider the pairs above when answering this question.
+
+<details>
+<summary>Solution</summary>
+
+- [ ] `interaction_count` and `lead_score`
+- [ ] `number_of_courses_viewed` and `lead_score`
+- [ ] `number_of_courses_viewed` and `interaction_count`
+- [x] `annual_income` and `interaction_count`
+
+**Answer**: `annual_income` and `interaction_count`
+</details>
 
 ### Split the data
 
@@ -66,6 +91,17 @@ Which of these variables has the biggest mutual information score?
 - `lead_source`
 - `employment_status`
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `industry`
+- [ ] `location`
+- [x] `lead_source`
+- [ ] `employment_status`
+
+**Answer**: `lead_source`
+</details>
+
 
 ### Question 4
 
@@ -83,6 +119,16 @@ What accuracy did you get?
 - 0.84
 - 0.94
 
+<details>
+<summary>Solution</summary>
+
+- [ ] 0.64
+- [x] 0.74
+- [ ] 0.84
+- [ ] 0.94
+
+**Answer**: 0.74
+</details>
 
 ### Question 5 
 
@@ -99,6 +145,15 @@ Which of following feature has the smallest difference?
 
 > **Note**: The difference doesn't have to be positive.
 
+<details>
+<summary>Solution</summary>
+
+- [x] `'industry'`
+- [ ] `'employment_status'`
+- [ ] `'lead_score'`
+
+**Answer**: `'industry'`
+</details>
 
 ### Question 6
 
@@ -116,6 +171,18 @@ Which of these `C` leads to the best accuracy on the validation set?
 - 100
 
 > **Note**: If there are multiple options, select the smallest `C`.
+
+<details>
+<summary>Solution</summary>
+
+- [x] 0.01
+- [ ] 0.1
+- [ ] 1
+- [ ] 10
+- [ ] 100
+
+**Answer**: 0.01
+</details>
 
 ## Submit the results
 
