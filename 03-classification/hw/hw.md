@@ -1,4 +1,4 @@
-## Homework [DRAFT]
+## Homework
 
 The homework notebook can be found at [hw.ipynb](./hw.ipynb).
 
