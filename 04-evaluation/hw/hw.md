@@ -44,6 +44,17 @@ Which numerical variable (among the following 4) has the highest AUC?
 - `interaction_count`
 - `annual_income`
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `'lead_score'`
+- [x] `'number_of_courses_viewed'`
+- [ ] `'interaction_count'`
+- [ ] `'annual_income'`
+
+**Answer**: `'number_of_courses_viewed'`
+</details>
+
 ### Question 2: Training the model
 
 Apply one-hot-encoding using `DictVectorizer` and train the logistic regression with these parameters:
@@ -59,6 +70,16 @@ What's the AUC of this model on the validation dataset? (round to 3 digits)
 - 0.72
 - 0.92
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.32`
+- [ ] `0.52`
+- [ ] `0.72`
+- [x] `0.92`
+
+**Answer**: `0.92`
+</details>
 
 ### Question 3: Precision and Recall
 
@@ -75,6 +96,16 @@ At which threshold precision and recall curves intersect?
 * 0.545
 * 0.745
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.145`
+- [ ] `0.345`
+- [x] `0.545`
+- [ ] `0.745`
+
+**Answer**: `0.545`
+</details>
 
 ### Question 4: F1 score
 
@@ -95,6 +126,16 @@ At which threshold F1 is maximal?
 - 0.54
 - 0.74
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.14`
+- [ ] `0.34`
+- [x] `0.54`
+- [ ] `0.74`
+
+**Answer**: `0.54`
+</details>
 
 ### Question 5: 5-Fold CV
 
@@ -117,6 +158,16 @@ How large is standard deviation of the scores across different folds?
 - 0.06
 - 0.36
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.0001`
+- [ ] `0.006`
+- [ ] `0.06`
+- [x] `0.36`
+
+**Answer**: `0.36`
+</details>
 
 ### Question 6: Hyperparameter Tuning
 
@@ -134,6 +185,16 @@ Which `C` leads to the best mean score?
 - 1
 
 If you have ties, select the score with the lowest std. If you still have ties, select the smallest `C`.
+
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.000001`
+- [x] `0.001`
+- [ ] `1`
+
+**Answer**: `0.001`
+</details>
 
 ## Submit the results
 
