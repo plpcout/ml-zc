@@ -22,6 +22,11 @@ In this homework, we're going to continue working with the lead scoring dataset.
 You should create an empty folder for homework
 and do it there. 
 
+<details>
+<summary>Solution</summary>
+
+**Answer**: `0.8.22`
+</details>
 
 ## Question 2
 
@@ -63,6 +68,13 @@ With `wget`:
 wget https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/master/cohorts/2025/05-deployment/pipeline_v1.bin
 ```
 
+<details>
+<summary>Solution</summary>
+
+**Answer**: `sha256:795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902`
+</details>
+
+
 
 ## Question 3
 
@@ -92,6 +104,17 @@ If you're getting errors when unpickling the files, check their checksum:
 $ md5sum pipeline_v1.bin
 7d17d2e4dfbaf1e408e1a62e6e880d49 *pipeline_v1.bin
 ```
+
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.333`
+- [x] `0.533`
+- [ ] `0.733`
+- [ ] `0.933`
+
+**Answer**: `0.533`
+</details>
 
 
 ## Question 4
@@ -144,6 +167,17 @@ We already built it and then pushed it to [`agrigorev/zoomcamp-model:2025`](http
 
 > **Note**: You don't need to build this docker image, it's just for your reference.
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.334`
+- [x] `0.534`
+- [ ] `0.734`
+- [ ] `0.934`
+
+**Answer**: `0.534`
+</details>
+
 
 ## Question 5
 
@@ -178,6 +212,16 @@ Now complete it:
 
 After that, you can build your docker image.
 
+<details>
+<summary>Solution</summary>
+
+- [ ] `45 MB`
+- [x] `121 MB`
+- [ ] `245 MB`
+- [ ] `330 MB`
+
+**Answer**: `121 MB`
+</details>
 
 ## Question 6
 
@@ -201,6 +245,17 @@ What's the probability that this lead will convert?
 * 0.59
 * 0.79
 * 0.99
+
+<details>
+<summary>Solution</summary>
+
+- [ ] `0.39`
+- [x] `0.59`
+- [ ] `0.79`
+- [ ] `0.99`
+
+**Answer**: `0.59`
+</details>
 
 
 ## Submit the results
